@@ -1,0 +1,73 @@
+#header {
+	height: 
+}
+
+#nav-menu{
+	padding-left: 20px;
+}
+
+#center{
+	background: url(assets/panoramic_cityscapes4.jpg) center no-repeat;
+	background-size: contain;
+}
+body{
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+div {
+  height: 50px;
+}
+
+li a { 
+	font-family: 'Roboto Condensed', sans-serif;
+  line-height: 50px;
+  text-decoration: none;
+  color: #999;
+  font-size: 14px;
+  padding: 0 14px;
+}
+li{
+  display: inline-block;
+}
+ul{
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.center-img{
+	display: block;
+    margin: 0 auto;
+    padding-top: 100px ;
+	width: 100%;
+	max-width: 500px;
+
+}
+
+.myButton {
+	background-color:white;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	border:2px solid orange;
+	display:inline-block;
+	cursor:pointer;
+	color:orange;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:17px;
+	padding:10px 21px;
+	text-decoration:none;
+	text-shadow:none;
+	position: right;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+.myButton:hover {
+	background-color:#FFDFAC;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
